@@ -1,8 +1,9 @@
 import './App.css';
 import freeCodeCampLogo from "./imagenes/freecodecamp-logo.png";
-//IMPORTACIONES POR DEFAULT
+//IMPORT DE COMPONENTES POR DEFAULT
 import Boton from './componentes/Boton';
 import Contador from './componentes/Contador';
+//IMPORT HOOK useState
 import { useState } from 'react';
 
 function App() {
@@ -34,6 +35,6 @@ function App() {
 export default App;
 
 
-//LINEA 6: IMPORT HOOKS useState
-//LINEA 10: DETALLE DEL HOOK, numClicks es el estado, setNumClics es la funcion que permite actualizar el estado, useState(0) es el valor inicial del estado del componente
+//LINEA 10: DETALLE DEL HOOK, array [numClicks es el prop del estado, setNumClics es la funcion que permite actualizar el estado],
+//useState(0) es el valor inicial del estado del componente
 //LINEAS 27, 28: RENDERIZA 2 VECES ELEMENTO DEL COMPONENTE HIJO LLAMADO Boton, SE VAN A DIFERENCIAR DEPENDIENDO LAS PROPS OTORGADAS
